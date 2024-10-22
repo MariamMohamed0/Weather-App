@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0a042b;
+}
+/* start weather-app */
+.weather-app{
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    width: 90%;
+    max-width: 470px;
+    margin: 50px auto 0;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+.weather-app .search input{
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.weather-app .search input::placeholder{
+    color: #4d6d91;
+}
+.weather-app .search input:focus{
+    border: 2px solid #00feba;
+}
+.weather-app .search button{
+    border: none;
+    padding:15px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.weather-app .search button .glass{
+    font-size: 25px;
+    color: #457e96;
+}
+.weather-app .error{
+    font-size: 25px;
+    margin: 20px 0px;
+    display: none;
+}
+.weather-app .content{
+    display: none;
+}
+.weather-app .content .weather-icon{
+    width: 200px;
+}
+.weather-app .content .temp{
+    font-size: 50px;
+}
+.weather-app .content .city{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.weather-app .delaits{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.weather-app .delaits .col{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.weather-app .delaits .col img{
+    width: 50px;
+    margin-right: 10px;
+}
+.weather-app .delaits .col .title h4{
+    font-size: 25px;
+}
+.weather-app .delaits .col .title h5{
+    font-size: 20px;
+}
+/* end weather-app */

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Weather App</title>
+    <!-- wow css -->
+    <link rel="stylesheet" href="css/wow.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- mdbootstrap css -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!--bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start weather-app -->
+    <div class="weather-app">
+        <div class="search">
+            <input type="text" placeholder="Enter city name">
+            <button><i class="glass fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error"><h3>Invalid City Name</h3></div>
+        <div class="content">
+            <img src="img/rain.png" class="weather-icon">
+            <h1 class="temp">22c</h1>
+            <h2 class="city">New York</h2>
+            <div class="delaits">
+                <div class="col">
+                    <img src="img/humidity.png">
+                    <div class="title">
+                        <h4 class="humidity">100%</h4>
+                        <h5>Humidity</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png">
+                    <div class="title">
+                        <h4 class="wind">1.85 km/h</h4>
+                        <h5>Wind Speed</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end weather-app -->
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- fontawesome js -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery js -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- mdbootstrap js -->
+    <script src="js/mdb.umd.min.js"></script>
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
