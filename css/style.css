@@ -77,4 +77,10 @@ body{
 .weather-app .delaits .col .title h5{
     font-size: 20px;
 }
+@media only screen and (max-width-567px){
+    .weather-app .search input{
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+}
 /* end weather-app */
